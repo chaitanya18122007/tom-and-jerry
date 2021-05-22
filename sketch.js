@@ -3,13 +3,13 @@ var mImg ,mImg2, mImg3 , m
 var cImg ,cImg2,cImg3, c
 function preload() {
     //load the images here
-    bgImg = loadImage("images/garden.png");
-    mImg = loadAnimation("images/mouse1.png")
-    mImg2 = loadAnimation("images/mouse2.png","images/mouse3.png")
-    mImg3 = loadAnimation("images/mouse4.png")
-    cImg = loadAnimation("images/cat1.png")
-    cImg2 = loadAnimation("images/cat2.png","images/cat3.png")
-    cImg3 = loadAnimation("images/cat4.png")
+    bgImg = loadImage("garden.png");
+    mImg = loadAnimation("mouse1.png")
+    mImg2 = loadAnimation("mouse2.png","mouse3.png")
+    mImg3 = loadAnimation("mouse4.png")
+    cImg = loadAnimation("cat1.png")
+    cImg2 = loadAnimation("cat2.png","cat3.png")
+    cImg3 = loadAnimation("cat4.png")
 }
 
 function setup(){
